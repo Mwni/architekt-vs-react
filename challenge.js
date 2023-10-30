@@ -1,6 +1,6 @@
 export function generateRandomTree(depth){
 	let tree = []
-	let length = Math.floor(Math.random() * 10)
+	let length = Math.ceil(Math.random() * 5)
 
 	for(let i=0; i<length; i++){
 		let branchDepth = depth === undefined

@@ -9,6 +9,6 @@
 		"react-dom": "^18.2.0"
 	},
 	"scripts": {
-		"build": "esbuild architekt.js --bundle --minify --outfile=architekt.bundle.js && esbuild react.jsx --bundle --minify --outfile=react.bundle.js"
+		"build": "esbuild architekt.js --bundle --outfile=architekt.bundle.js && esbuild react.jsx --bundle --outfile=react.bundle.js"
 	}
 }
