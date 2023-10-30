@@ -1,0 +1,14 @@
+{
+	"name": "architekt-vs-react",
+	"type": "module",
+	"dependencies": {
+		"@architekt/html": "^1.0.0",
+		"@architekt/ui": "^1.0.0",
+		"esbuild": "^0.19.5",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"scripts": {
+		"build": "esbuild architekt.js --bundle --minify --outfile=architekt.bundle.js && esbuild react.jsx --bundle --minify --outfile=react.bundle.js"
+	}
+}
